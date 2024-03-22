@@ -1,8 +1,7 @@
 {
-  "name": "js-project-template",
+  "name": "news-center",
   "version": "0.0.1",
   "type": "module",
-  "main": "src/index.js",
   "scripts": {
     "test": "node --test ./test/**",
     "lint": "eslint src/** --fix",
@@ -14,7 +13,13 @@
     "npm": ">=10"
   },
   "devDependencies": {
+    "@sap/cds-dk": "^7.7.2",
     "eslint": "^8.57.0",
     "prettier": "^3.2.5"
-  }
+  },
+  "dependencies": {
+    "@sap/cds": "^7.7.3",
+    "cds-mysql": "^7.7.0"
+  },
+  "license": "Apache-2.0"
 }

@@ -2,6 +2,20 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "cds serve",
+      "request": "launch",
+      "runtimeExecutable": "npx",
+      "args": [
+        "cds",
+        "serve"
+      ],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
       "type": "node",
       "name": "vscode-jest-tests",
       "request": "launch",
