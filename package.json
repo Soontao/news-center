@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@sap/cds": "^7.7.3",
-    "cds-mysql": "^7.7.0"
+    "cds-mysql": "^7.8.1"
   },
   "license": "Apache-2.0"
 }
