@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@sap/cds-dk": "^7.7.2",
-    "eslint": "^8.57.0",
+    "eslint": "^9.0.0",
     "prettier": "^3.2.5"
   },
   "dependencies": {
